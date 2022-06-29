@@ -1,0 +1,34 @@
+body{
+    background-color: rebeccapurple;
+    display: grid;
+    padding: 1.5rem;
+}
+header{
+    background-color: darkgreen;
+    text-align: center;
+}
+section{
+    background-color: rosybrown;
+}
+div{
+    background-color:lightgrey;
+    text-align: center;
+    padding: 1.2rem;
+}
+main{
+    text-align: start;
+    background-color: lightpink;
+    padding: 2.0rem;
+}
+footer{
+    background-color:mediumslateblue;
+    padding: 1.5rem;
+}
+address{
+    text-align: center;
+    background-color: mediumturquoise;
+}
+img{
+    width: 35%;
+    
+}

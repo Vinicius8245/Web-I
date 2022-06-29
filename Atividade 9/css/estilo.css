@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+h3{
+    font-weight: bolder;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+}
+#geral{
+    height: 200%;
+    width: 100%;
+    position: absolute;
+}
+#banners-1{
+    height: 50%;
+    width: 100%;
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.primeiros-banners1,.primeiros-banners2,.primeiros-banners3{
+    height: 80%;
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#banners-1 .primeiros-banners1 figure{
+    height: 50%;
+    width: 100%;
+}
+#banners-1 .primeiros-banners1 div{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    line-height: 2.5;
+}
+#banners-1 .primeiros-banners1 div p{
+    font-size: 1.9vmin;
+}
+#banners-1 .primeiros-banners2 figure{
+    height: 50%;
+    width: 100%;
+    background-position: center;
+}
+#banners-1 .primeiros-banners2 div{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    line-height: 2.5;
+}
+#banners-1 .primeiros-banners2 div p{
+    font-size: 1.9vmin; 
+}
+#banners-1 .primeiros-banners3 figure{
+    height: 50%;
+    width: 100%;
+}
+#banners-1 .primeiros-banners3 div{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    line-height: 2.5;
+}
+#banners-1 .primeiros-banners3 div p{
+    font-size: 1.9vmin; 
+}
+
+#banners-2{
+    height: 50%;
+    width: 100%;
+    background-color:  coral;
+    display: flex;
+    border: 1px solid white;
+}
+#colunas{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid white;
+}
+#colunas aside{
+    width: 80%;
+    height: 30%;
+    display: flex;
+}
+#colunas aside:nth-child(1) figure{
+    width: 50%;
+    height: 100%;
+    background-image: url(../img/telefone.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px 0  0 10px ;
+}
+#colunas aside:nth-child(2) figure{
+    width: 50%;
+    height: 100%;
+    background-image: url(../img/familia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px 0  0 10px ;
+}
+#colunas aside:nth-child(3) figure{
+    width: 50%;
+    height: 100%;
+    background-image: url(../img/programador.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px 0  0 10px ;
+}
+#colunas aside div{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    line-height: 1.5;
+    background-color: white;
+    border-radius: 0 10px 10px 0;
+}
+#colunas aside div p {
+    font-size: 1.7vmin;
+}
+#propaganda{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#propaganda figure{
+    width: 90%;
+    height: 50%;
+    background-image: url(../img/telefone.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius:  10px 10px 0 0;
+}
+#propaganda div{
+    width: 90%;
+    height: 30%;
+    border-radius: 0 0 10px 10px;
+    background-color: white;
+    text-align: center;
+    line-height: 2;
+}

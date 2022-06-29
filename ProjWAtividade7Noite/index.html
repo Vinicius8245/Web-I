@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+    <title>Atividade 7 Correção</title>
+</head>
+<body>
+    <main id="geral">
+        <section id="tela1">
+            <a href="#tela1"><i class="fa fa-home fa-lg" aria-hidden="true"></i></a>
+            <header id="topo">
+                <nav id="menu">
+                    <ul>
+                        <li><a href="#tela1">Home</a></li>
+                        |
+                        <li><a href="#tela2">História</a></li>
+                        |
+                        <li><a href="#tela3">Serviços</a></li>
+                        |
+                        <li><a href="#tela4">Produtos</a></li>
+                        |
+                        <li><a href="#tela5">Localização</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div id="conteudo-inicial">
+                <figure id="banner"></figure>
+                <div id="texto-inicial">
+                    <h1>JavaScript</h1>
+                    <p>Strings in JavaScript are contained within a pair of either single quotation marks 
+                    </p> <p>'' or double quotation marks "".</p> 
+                </div>
+            </div>
+        </section>
+        <section id="tela2">
+            <figure id="img-tela2">
+                <img src="img/card.png" alt="Card">
+            </figure>
+            <div id="texto-tela2">
+                <h1>História do JavaScript</h1>
+                <p>O JavaScript foi criado na década de 90 por Brendan Eich a serviço da Netscape.
+                    Essa década foi um período de revolução, pois os browsers ainda eram estáticos. 
+                    O navegador mais popular dessa época era o Mosaic, da NCSA. ... 
+                    Em 1995, a Netscape contratou Brendan Eich para criar uma linguagem que proporcionasse isso.
+                </p>
+            </div>
+        </section>
+        <section id="tela3">
+            <div>
+                <figure>
+                    <img src="img/figura1.png" alt="Atributo 1">
+                </figure>
+                <div>
+                    <h2>Node.js</h2>
+                </div>
+            </div>
+            <div>
+                <figure>
+                    <img src="img/figura2.jpg" alt="Atributo 2">
+                </figure>
+                <div>
+                    <h2>JavaScript</h2>
+                </div>
+            </div>
+        </section>
+        <section id="tela4">
+            <figure id="galeria">
+                <div id="demo" class="carousel slide" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                      <li data-target="#demo" data-slide-to="0" class="active"></li>
+                      <li data-target="#demo" data-slide-to="1"></li>
+                      <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/img.jpg" alt="Los Angeles" width="1100" height="500">
+                        <div class="carousel-caption">
+                          <h3>Los Angeles</h3>
+                          <p>We had such a great time in LA!</p>
+                        </div>   
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/img.jpg" alt="Chicago" width="1100" height="500">
+                        <div class="carousel-caption">
+                          <h3>Chicago</h3>
+                          <p>Thank you, Chicago!</p>
+                        </div>   
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/img.jpg" alt="New York" width="1100" height="500">
+                        <div class="carousel-caption">
+                          <h3>New York</h3>
+                          <p>We love the Big Apple!</p>
+                        </div>   
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="img/img.jpg" alt="Los Angeles" width="1100" height="500">
+                          <div class="carousel-caption">
+                            <h3>Los Angeles</h3>
+                            <p>We had such a great time in LA!</p>
+                          </div>   
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                  </div>
+            </figure>
+        </section>
+        <section id="tela5">
+            <div>
+                <div id="contato">
+                    <form action="" method="GET">
+                        <fieldset id="f-cadastro">
+                            <legend>Cadastro</legend>
+                            <fieldset id="f-dados-pessoais">
+                                <legend>Dados Pessoais</legend>
+                                <p>
+                                    <label>Nome:</label>
+                                    <input type="text" class="campo">
+                                </p>
+                                <p>
+                                    <label>Idade:</label>
+                                    <input type="number">
+                                </p>
+                            
+                            <fieldset id="f-sexo">
+                                <legend>Sexo:</legend>
+                                <p>
+                                    <input type="radio" name="sexo">
+                                    <label>Masculino</label>
+                                </p>
+                                <p>
+                                    <input type="radio" name="sexo">
+                                    <label>Feminino</label>
+                                </p>
+                                <p>
+                                    <input type="radio" name="sexo">
+                                    <label>Outros</label>
+                                </p>
+                            </fieldset>
+                            </fieldset>
+                            <fieldset id="f-endereco">
+                                <legend>Endereço</legend>
+                                <p>
+                                    <label>Rua:</label>
+                                    <input type="text" class="campo">
+                                </p>
+                                <p>
+                                    <label>Número:</label>
+                                    <input type="number" class="largura-media">
+                                </p>
+                                <p>
+                                    <label>Cidade:</label>
+                                    <input type="text" class="campo">
+                                </p>
+                                <p>
+                                    <label>UF:</label>
+                                    <select class="largura-media">
+                                        <option >RS</option>
+                                        <option >SC</option>
+                                        <option >RJ</option>
+                                        <option >SP</option>
+                                    </select>
+                                </p>
+                            </fieldset>
+                            <fieldset id="f-ocupacao">
+                                <legend>Ocupação</legend>
+                                <p>
+                                    <input type="checkbox">
+                                    <label>Música</label>
+                                </p>
+                                <p>
+                                    <input type="checkbox">
+                                    <label>Culinária</label>
+                                </p>
+                                <p>
+                                    <input type="checkbox">
+                                    <label>Esporte</label>
+                                </p>
+                            </fieldset>
+                            <fieldset id="f-msg">
+                                <legend>Envie uma mensagem</legend>
+                                <textarea></textarea>
+                            </fieldset>
+                            <p>
+                            <input type="button" value="Enviar" class="botao">
+                            <input type="reset" value="Limpar Campos" class="botao">
+                            <input type="file" value="Escolher Arquivo" id="anexar" class="botao">
+                            </p>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div id="tela5-direito">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

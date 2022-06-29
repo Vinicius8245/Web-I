@@ -1,0 +1,13 @@
+h1{
+    color: blueviolet;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+}
+p{
+    font-size: large;
+    display: grid;
+    align-items: center;
+    padding: 10px;
+}

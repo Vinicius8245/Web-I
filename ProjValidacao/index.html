@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação</title>
+</head>
+<body>
+    <form action="#" method="GET">
+        <fieldset>
+            <legend>Cadastro de Usuário</legend>
+            <p>
+                <label>Usuário:</label>
+                 <input id="usuario" type="text">
+            </p>
+            <p>
+                <label>Senha:</label>
+                <input id="senha" type="password">
+            </p>
+            <select name="" id="tipo">
+                <option value="">Escolha o tipo do usuário</option>
+                <option value="tipo">Usuário padrão</option>
+                <option value="tipo">Administrador</option>
+            </select>
+            <button onclick="validar()" type="submit">Cadastrar</button>
+            
+        </fieldset>
+    </form>
+
+    <script type="text/javascript" src="js/funcoes.js"></script>
+</body>
+</html>

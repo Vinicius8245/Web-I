@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+          width: 100%;
+          height: 100%;
+        }
+        </style>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>Gatti Veículos</title>
+</head>
+<body>
+    <header id="topo">
+        <button id="btn-nav"><a href="#nav-bar"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></a></button>
+        <figure id="logo-imagem"></figure>
+        <h3>G A T T I</h3>
+        <nav id="nav-bar">
+            <a href="#" id="btn-fechar">X</a>
+            <ul>
+                <a href="#topo">
+                    <li><i class="fa fa-home" aria-hidden="true"></i>  Home</li>
+                </a>
+                <a href="#corpo">
+                    <li><i class="fa fa-briefcase" aria-hidden="true"></i>  Marcas</li>
+                </a>
+                <a href="#cards-carros">
+                    <li><i class="fa fa-car" aria-hidden="true"></i></i>  Carros</li>
+                </a>
+                <a href="#rodape">
+                    <li><i class="fa fa-envelope-o" aria-hidden="true"></i>  Blogs</li>
+                </a>
+                <a onclick="abrirModal()"  href="#" id="abrir" >
+                    <li><i class="fa fa-id-card" aria-hidden="true"></i></i>  Cadastro</li>
+                </a>
+                <a onclick="mudarDeTela()" href="https://www.gattiveiculos.com.br" target="_blanck">
+                    <li><i class="fa fa-mobile" aria-hidden="true"></i>  Contato</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <div id="cortina">
+        <div id="modal">
+            <a onclick="fecharModal()" href="#" id="fechar">X</a>
+            <form action="" method="GET">
+                <label>
+                    Usuário:
+                    <input type="text" id="usuario">
+                </label>
+                <label>
+                    Senha:
+                    <input type="password" id="senha">
+                </label>
+                <label>
+                    Email:
+                    <input type="email" id="email">
+                </label>
+                <input onclick="validarFormulario()" id="btn" type="submit" value="Cadastrar">
+                <h2 id="validacao"></h2>
+            </form>
+        </div>
+    </div>
+    <section id="banner">
+        <figure>
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                  
+                </ul>
+                
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/imagem-titular.jpg" alt="" width="1100" height="500">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/CARROCEL_2" alt="" width="1100" height="500">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/CARROCEL_1.jfif" alt="" width="1100" height="500">
+                  </div>
+                </div>
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
+        </figure>
+    </section>
+    <main id="corpo">
+        <h3>Modelos de marcas mais buscados</h3>
+        <div id="imagens-carros">
+            <a href="https://www.iesabmw.com.br">
+                <figure id="primeira-img">
+                    <img src="img/logo-bmw.png" alt="Logo da BMW" class="layout-logo">
+                </figure>
+            </a>
+            <a href="https://www.sanmarinofiat.com.br">
+                <figure id="segunda-img">
+                    <img src="img/logo-fiat.jpg" alt="Logo do Fiat" class="layout-logo">
+                </figure>
+            </a>
+            <a href="https://www.mecasul.com.br/empresa.php">
+                <figure id="terceira-img">
+                    <img src="img/logo-mercedes.jpg" alt="Logo da Mercedes" class="layout-logo">
+                </figure>
+            </a>
+            <a href="https://www.iesanissan.com.br">
+                <figure id="quarta-img">
+                    <img src="img/logo-nissan.jpg" alt="Logo da Nissan" class="layout-logo">
+                </figure>
+            </a>
+            <a href="https://www.iesarenault.com.br">
+                <figure id="quinta-img">
+                    <img src="img/logo-renault.jpg" alt="Logo da Renault" class="layout-logo">
+                </figure>
+            </a>
+            <a href="https://www.carhousehyundai.com.br">
+                <figure id="sexta-img">
+                    <img src="img/logo-honda.jpg" alt="Logo da Honda" class="layout-logo">
+                </figure>
+            </a>
+        </div>
+        <section id="cards-carros">
+            <h3>Modelos de carros mais buscados</h3>
+            <section>
+                <article>
+                    <figure id="primeiro-carro">
+                        <img src="img/ford-focus.jpg" alt="Focus" class="layout-carros">
+                    </figure>
+                    <div>  
+                        <h2>Ford Focus</h2>
+                        <p>R$ 78.100</p>
+                    </div>
+                </article>
+                <article>
+                    <figure id="segundo-carro">
+                        <img src="img/carro-cvic.jpg" alt="Civic" class="layout-carros">
+                    </figure>
+                    <div>  
+                        <h2>Honda Civic</h2>
+                        <p>R$ 111.600</p>
+                    </div>
+                </article>
+                <article>
+                    <figure id="terceiro-carro">
+                        <img src="img/carro-corola.jpg" alt="Corolla" class="layout-carros">
+                    </figure>
+                    <div>  
+                        <h2>Corolla</h2>
+                        <p>R$ 99.990</p>
+                    </div>
+                </article>
+                <article>
+                    <figure id="quarto-carro">
+                        <img src="img/carro-siena.jpg" alt="Siena" class="layout-carros">
+                    </figure>
+                    <div>  
+                        <h2>Siena Novo</h2>
+                        <p>R$ 51.290</p>
+                    </div>
+                </article>
+                <article>
+                    <figure id="quinto-carro">
+                        <img src="img/carro-hb20.jpg" alt="Hb20" class="layout-carros">
+                    </figure>
+                    <div>  
+                        <h2>Hb20 2020</h2>
+                        <p>R$ 47.590</p>
+                    </div>
+                </article>
+                <article>
+                    <figure id="sexto-carro">
+                        <img src="img/carro-onix.jpg" alt="Onix" class="layout-carros">
+                    </figure>
+                    <div>  
+                        <h2>Onix</h2>
+                        <p>R$ 50.990</p>
+                    </div>
+                </article>
+             </section>
+        </section>
+    </main>
+    <section id="blog">
+            <article id="video">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/NArEJ6A4RNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </article>
+            <br>
+            <aside id="mapa">
+                <iframe width="100%" height="100%" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1829.0059362913134!2d-46.78638422400296!3d-23.532075387006778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgatti%20veiculos%20perto%20de%20S%C3%A3o%20Paulo%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1629244517406!5m2!1spt-BR!2sbr"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </aside>
+    </section>
+    <footer id="rodape">
+        <div id="redes-sociais">
+            <a href="https://facebook.com" target="_blanck"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://twitter.com" target="_blanck"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.google.com" target="_blanck"><i class="fa fa-google" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/gatti_veiculos/" target="_blanck"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blanck"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        </div>
+        <address>
+            Copyright &copy; WebMaster 2021, Todos os direitos reservados aos alunos Vinícius Souza, Eder Griszewski e Allyson Oliveira.
+        </address>
+    </footer>
+    <script type="text/javascript" src="js/funcoes.js"></script>
+</body>
+</html>

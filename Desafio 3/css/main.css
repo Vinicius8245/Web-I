@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#cabecalho{
+    text-align: center;
+    padding: 2rem;
+}
+body{
+    background-color: gray;
+}
+#mapa{
+    text-align: center;
+    padding: 2rem;
+    background-color: teal;
+}
+#video{
+    background-color: slateblue;
+    text-align: center;
+    padding: 2rem;
+}
+#linha{
+    align-items: s;
+    display: flex;
+}
+#primeira{
+    background-color:hotpink;
+    text-align: center;
+    width: 40%;
+    
+}
+#segunda{
+    background-color: dodgerblue;
+    
+    width: 40%;
+}
+#terceira{
+    background-color: orangered;
+    text-align: center;
+    width: 40%;
+}
+
+img{
+    width: 20rem;
+    border: 1px solid steelblue;
+}
+#final{
+    text-align: center;
+    padding: 2.5rem;
+}

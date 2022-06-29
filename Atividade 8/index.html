@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <title>Atividade 8</title>
+</head>
+<body>
+    <main id="principal">
+        <form id="formulario" action="" method="GET">
+            <fieldset id="f-cadastro">
+                <legend>CADASTRO DE USUÁRIO</legend>
+                <fieldset id="f-dados-pessoais">
+                    <legend>Dados Pessoais</legend>
+                    <p>
+                        <label>Nome:</label>
+                        <input type="text" class="largura-media">
+                    </p>
+                    <p>
+                        <label>Idade:</label>
+                        <input type="number" class="largura-media">
+                    </p>
+                    <p>
+                        <label>Data de nascimento</label>
+                        <input type="date" class="largura-media">
+                    </p>
+                    <fieldset id="f-sexo">
+                        <legend>Sexo:</legend>
+                        <p>
+                            <input type="radio">
+                            <label>Masculino</label>
+                            <input type="radio">
+                            <label>Feminino</label>
+                        </p>
+                    </fieldset>
+                </fieldset>
+                <fieldset id="f-dados-loc">
+                    <legend>Dados de Localização</legend>
+                    <p>
+                        <label>Rua:</label>
+                        <input type="text" class="largura-media">
+                        <label>N:</label>
+                        <input type="text" class="largura-media">
+                        <label>Cidade:</label>
+                        <input type="text" class="largura-media">
+                        <label>UF:</label>
+                        <select id="drop-down">
+                            <option>RS</option>
+                            <option>RJ</option>
+                            <option>SP</option>
+                            <option>SC</option>
+                            <option>PR</option>
+                        </select>
+                    </p>
+                    <p id="p-texto">
+                        <label>Informe um ponto de referência:</label>
+                        <p>
+                            <textarea id="texto"></textarea>
+                        </p> 
+                    </p>
+                    <p>
+                        <label>Anexar comprovante de residência:</label>
+                    </p>
+                    <p>
+                        <input type="file" id="file">
+                    </p>
+                </fieldset>
+                <fieldset id="f-usuario-senha">
+                    <legend>Usuário e Senha</legend>
+                    <p>
+                        <label>Usuário:</label>
+                        <input type="text" class="largura-media">
+                        <label>Senha:</label>
+                        <input type="password" class="largura-media">
+                        <input type="button" value="Validar" class="botaos">
+                    </p>
+                </fieldset>
+                <fieldset id="f-ultimo">
+                    <p>
+                        <input type="button" value="Cadastrar" class="botaos">
+                        <input type="reset" value="Limpar formulário" class="botaos">
+                    </p>
+                </fieldset>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

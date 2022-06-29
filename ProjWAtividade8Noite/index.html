@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css" type="text/css" >
+    <title>Correção Atividade 8</title>
+</head>
+<body>
+    <main id="geral">
+        <form action="" method="GET">
+            <fieldset>
+                <legend>CADASTRO DE USUÁRIO</legend>
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <p>
+                        <label>Nome:<input type="text"></label>
+                    </p>
+                    <p>
+                        <label>Idade:<input type="text"></label>
+                    </p>
+                    <p>
+                        <label>Data de Nascimento:<input type="date"></label>
+                    </p>
+                    
+                    <fieldset>
+                        <legend>Sexo:</legend>
+                        <label>
+                            <input type="radio" name="botao" checked>Masculino
+                        </label>
+                        <label>
+                            <input type="radio" name="botao">Feminino
+                        </label>
+                    </fieldset>
+                </fieldset>
+                <fieldset>
+                    <legend>Dados de Localização</legend>
+                    <label>
+                        Rua: <input type="text">
+                    </label>
+                    <label>
+                        Número: <input type="number">
+                    </label>
+                    <label>
+                        Cidade: <input type="text">
+                    </label>
+                    <label>
+                        UF:
+                        <select>
+                            <option value="">RS</option>
+                            <option value="">RJ</option>
+                            <option value="">SC</option>
+                            <option value="">SP</option>
+                        </select>
+                    </label>
+                    <p>
+                        <label>
+                            Informe um ponto de referência: <br>
+                            <textarea></textarea>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            Anexar um coprovante de residência: <br>
+                            <p>
+                                <input type="file">
+                            </p>
+                        </label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Usuário e Senha</legend>
+                    <label>
+                        Usuário: <input type="text">
+                    </label>
+                    <label>
+                        Senha: <input type="password">
+                    </label>
+                    <input type="button" value="Validar">
+                </fieldset>
+                <fieldset>
+                    <input type="submit" value="Cadastrar">
+                    <input type="reset" value="Limpar formulário">
+                </fieldset>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

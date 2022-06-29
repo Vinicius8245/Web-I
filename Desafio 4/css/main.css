@@ -1,0 +1,95 @@
+@charset 'utf-8';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+#principal {
+  width: 100%;
+  height: 100%;
+  background-color: cadetblue;
+  position: absolute;
+}
+#topo {
+  background-color: darkgoldenrod;
+  height: 20%;
+}
+#cabecalho {
+  border-radius: 50px 0 0 0;
+  width: 50%;
+  background-color: cadetblue;
+  float: right;
+}
+#nav-bar {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  bottom: 80%;
+  background-color: cadetblue;
+  width: 50%;
+  border-radius: 50px 0 0 0;
+}
+.nav-link {
+  margin-left: 3%;
+  color: orange;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 1%;
+}
+#corpo {
+  background-color: cadetblue;
+  height: 70%;
+  width: 100%;
+}
+#primeira-coluna {
+  width: 25%;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+.linhas {
+  background-color: coral;
+  display: inline-block;
+  height: 10%;
+  width: 70%;
+  padding: 1%;
+  margin: 5%;
+}
+#segunda-coluna {
+  width: 50%;
+  height: 100%;
+  background-color: blueviolet;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  float: left;
+}
+.tabela {
+  width: 19%;
+  height: 19%;
+  background-color: coral;
+}
+#terceira-coluna {
+  width: 25%;
+  height: 100%;
+  float: left;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.quadrados {
+  background-color: coral;
+  width: 30%;
+  height: 40%;
+}
+#rodape {
+  width: 100%;
+  height: 10%;
+  background-color: grey;
+}

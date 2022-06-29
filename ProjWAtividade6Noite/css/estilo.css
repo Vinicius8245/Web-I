@@ -1,0 +1,138 @@
+@charset 'UTF-8';
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(../img/fundo.jpg);
+    background-position:center ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#geral{
+    width: 100%;
+    height: 230%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#topo{
+    width: 97%;
+    height: 13.7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#login{
+    width: 100%;
+    height: 15%;
+    background-color: rgba(0, 0, 0,0.5);
+    color: white;
+}
+#login ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-size: 2.5vmin;
+}
+#banner{
+    width: 100%;
+    height: 45%;
+    background-color: rgba(0, 0, 0,0.5);
+    
+}
+#menu{
+    width: 100%;
+    height: 15%;
+    background-color: rgba(0, 0, 0,0.5);
+}
+#menu ul{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    font-size: 3vmin;
+    font-weight: bold;
+}
+#corpo{
+    width: 97%;
+    height: 81%;
+    display: flex;
+}
+#conteudo-esquerdo{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#conteudo-esquerdo div{
+    width: 99%;
+    height: 31.1%;
+    background-color: rgba(0, 0, 0,0.5);
+}
+#conteudo-esquerdo div:nth-child(3){
+    background-color:rgba(0, 0, 0,0.5);
+}
+#conteudo-direito{
+    width: 30%;
+    height: 100%;
+}
+#destaques{
+    width: 100%;
+    height: 73.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#destaques div{
+    width: 90%;
+    height: 28%;
+    background-color:rgba(0, 0, 0,0.5);
+}
+#destaques div:nth-child(3){
+    height: 35%;
+    background-color: rgba(0, 0, 0,0.5);
+}
+#propagandas{
+    width: 100%;
+    height: 26.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#quadradinhos{
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#quadradinhos figure{
+    width: 40%;
+    height: 90%;
+    background-color: rgba(0, 0, 0,0.5);
+}
+#retangulo-inferior{
+    width: 90%;
+    height: 32%;
+    background-color: rgba(0, 0, 0,0.5);
+}
+#rodape{
+    width: 97%;
+    height: 4%;
+    background-color: rgba(0, 0, 0,0.5);
+}

@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    list-style: none;
+}
+#geral{
+    width: 100%;
+    height: 500%;
+    background-color: blueviolet;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+#primeira-tela{
+    width: 100%;
+    height: 20%;
+    background-color: green;
+}
+#topo{
+    width: 100%;
+    height: 15%;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#nav-bar{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+#nav-bar ul{
+    width: 60%;
+    height: 100%;
+    background-color:dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    color: ghostwhite;
+    font-size: 2vmin;
+}
+#corpo{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center
+}
+#corpo div:nth-child(1){
+    height: 40%;
+    width: 80%;
+}
+#corpo div:nth-child(2){
+    height: 15%;
+    width: 70%;
+}
+#corpo div{
+    width: 70%;
+    height: 30%;
+    background-color: blue;
+}
+#segunda-tela{
+    width: 100%;
+    height: 20%;
+    background-color: coral;
+    display: flex;
+    justify-content: space-around;
+}
+#corpo-segunda{
+    width: 97%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+#corpo-segunda div{
+    width: 45%;
+    height: 58%;
+}
+#corpo-segunda div:nth-child(1){
+    width: 39%;
+    background-color: #ffb300;
+}
+#corpo-segunda div:nth-child(2){
+    width: 60%;
+    background-color:#fbe9e7 ;
+}
+#terceira-tela{
+    width: 100%;
+    height: 20%;
+    background-color: dodgerblue;
+    display: flex;
+}
+#conteudo-esquerda{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#conteudo-esquerda figure{
+    width: 60%;
+    height: 40%;
+    background-color: #ffb300;
+}
+#conteudo-esquerda figure:nth-child(2){
+    width: 50%;
+    height: 10%;
+    border: 1px solid blue;
+}
+#conteudo-direita{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#conteudo-direita figure{
+    width: 60%;
+    height: 40%;
+    background-color: #ffb300;
+}
+#conteudo-direita figure:nth-child(2){
+    width: 50%;
+    height: 10%;
+    border: 1px solid blue;
+}
+#quarta-tela{
+    width: 100%;
+    height: 20%;
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#quarta-tela figure{
+    width: 95%;
+    height: 60%;
+    background-color:dodgerblue ;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+#quinta-tela{
+    width: 100%;
+    height: 20%;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#quadrado{
+    background-color: white;
+    width: 45%;
+    height: 84%;
+}
+#retangulos{
+    width: 45%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#retangulos figure{
+    background-color: white;
+    width: 90%;
+    height:21%;
+}

@@ -1,0 +1,292 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+a {
+  color: rgb(38, 29, 156);
+  text-decoration: none;
+}
+i {
+  position: fixed;
+  font-size: 7vmin !important;
+  bottom: 1%;
+  left: 2%;
+}
+li{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  background-image: url(../img/fundo1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+}
+#geral {
+  height: 500%;
+  width: 100%;
+  position: absolute;
+}
+#tela1,
+#tela2,
+#tela3,
+#tela4,
+#tela5 {
+  width: 100%;
+  height: 20%;
+}
+#geral section:nth-child(1) {
+  color: rgb(38, 29, 156);
+}
+#topo {
+  width: 100%;
+  height: 20%;
+  background-color: rgba(0, 76, 255, 0.6);
+  box-shadow: 0px 0px 20px #000;
+}
+#menu {
+  width: 60%;
+  height: 35%;
+  background-color: white;
+  background-color: rgba(255, 255, 255, 1.9);
+  transform: skew(-20deg);
+  border-radius: 10px;
+  float: right;
+  margin-top: 11%;
+  box-shadow: 0px 0px 20px #000;
+}
+#menu ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  font-size: 3vmin;
+  color: rgb(38, 29, 156);
+  align-items: center;
+  height: 100%;
+}
+#conteudo-inicial {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+#banner {
+  width: 80%;
+  height: 40%;
+  background-image: url(../img/banner2.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 3vh;
+  box-shadow: 0px 0px 20px #000;
+}
+#texto-inicial {
+  width: 60%;
+  height: 38%;
+}
+#texto-inicial h1 {
+  font-size: 4vmin;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0px 0px 3px #000;
+}
+#texto-inicial p {
+  font-size: 2vmin;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0px 0px 3px #000;
+}
+#geral section:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#img-tela2 {
+  width: 40%;
+  height: 60%;
+}
+#img-tela2 img {
+  width: 95%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #000;
+}
+#texto-tela2 {
+  width: 50%;
+  height: 60%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #000;
+  text-align: center;
+  font-size: 2.5vmin;
+  line-height: 30px;
+}
+#texto-tela2 h1 {
+  margin-top: 10%;
+}
+#texto-tela2 p {
+  margin-top: 18%;
+}
+#geral section:nth-child(3) {
+  display: flex;
+}
+#tela3 div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+#tela3 div div {
+  width: 60%;
+  height: 15%;
+  background-color: rgba(2, 4, 8, 0.6);
+  border-radius: 3%;
+  color: white;
+  border: 2px solid #000;
+}
+#tela3 div figure {
+  width: 70%;
+  height: 50%;
+  border-radius: 100%;
+  transition: 0.2s;
+  border: 2px solid #000;
+}
+#tela3 div figure img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 0.2s;
+}
+#tela3 div figure img:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: 0.2s;
+}
+#tela3 div figure:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 100%;
+  cursor: pointer;
+}
+#geral section:nth-child(4) {
+  display: flex;
+  justify-content: center;
+}
+#galeria {
+  width: 90%;
+  height: 70%;
+  background-color: darkolivegreen;
+  margin: auto;
+  margin-top: 5%;
+}
+#geral section:nth-child(5) {
+  display: flex;
+}
+#tela5 div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}  
+#tela5 div #contato {
+  width: 90%;
+  height: 90%;
+  border-radius: 20px;
+}
+#tela5 div #contato form {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(172, 169, 169);
+  border-radius: 20px;
+}
+#tela5 div #contato form input {
+  border-radius: 7px;
+  border: none;
+  height: 20px;
+  width: 50%;
+}
+.campo {
+  width: 50%;
+}
+.largura-media{
+    width: 20%;
+    border-radius: 7px;
+    border: none;
+    height: 20px;
+}
+fieldset{
+    border: solid 0.5px blue;
+}
+legend{
+    font-size: 3vmin;
+    color: blue;
+    font-weight: bold;
+}
+#tela5 div #contato form #f-cadastro {
+  width: 90%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+#f-dados-pessoais,
+#f-sexo,
+#f-endereco,
+#f-ocupacao,
+#f-msg {
+  width: 90% ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 5%;
+  border-radius: 20px;
+}
+#f-dados-pessoais {
+  height: 30%;
+}
+#f-endereco {
+  height: 25%;
+}
+#f-ocupacao {
+  height: 17%;
+}
+#f-msg {
+  height: 18%;
+  padding-right: 5%;
+}
+#f-msg textarea {
+  height: 90%;
+  width: 94%;
+  border-radius: 7px;
+  border: none;
+}
+.botao{
+  width: 22%;
+}
+#anexar{
+    width: 60%;
+}
+#tela5 #tela5-direito div {
+  width: 80%;
+  height: 15%;
+  background-color: gray;
+  border-radius: 20px;
+  padding: 0 4% ;
+  align-items: center;
+}
